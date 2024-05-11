@@ -1,0 +1,73 @@
+/* Global styles */
+
+body {
+    font-family: 'Rubik Scribble', cursive;
+    background: linear-gradient(to bottom, #e5e5e5, #f2f2f2);
+  }
+  
+  h1, h3 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+  }
+  
+  /* Heading */
+  
+  #heading {
+    font-size: 3rem;
+    text-shadow: 2px 2px #ddd;
+  }
+  
+  /* Form */
+  
+  form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    margin-right: 1rem;
+  }
+  
+  input[type="submit"] {
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Weather icons */
+  
+  #two img {
+    display: block;
+    max-width: 150px;
+    margin: 1rem auto;
+  }
+  
+  /* Temperature & Humidity */
+  
+  #three {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #temperature, 
+  #humidity {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 150px;
+  }
+  
+  #temp_value,
+  #humid_value {
+    font-size: 2rem;
+  }
+   
